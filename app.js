@@ -26,17 +26,13 @@ const showWinner = (userWin ,userChoice, compChoice) => {
     }
 }
 const drawgame = () =>{
-    console.log(`Game was draw`);
     msg.innerText = "Game was Draw";
     msg.style.backgroundColor = "#081b31";
 }
 
 const playgame = (userChoice) =>{
-     console.log(`user choice =  ${userChoice}`);
      //Generate computer choice
      const compChoice =genCompChoice();
-     console.log(`comp choice = ${compChoice}`);
-
      if(userChoice === compChoice){
         drawgame();
      } else {
