@@ -14,6 +14,7 @@ h1{
 .choice:hover{
     /* opacity:0.5; */
     cursor: pointer;
+    background-color: #081b31;
 }
 .choices{
     display: flex;
@@ -25,10 +26,37 @@ h1{
 .choice{
     height: 165px;
     width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .choices img{
     height: 150px;
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.score{
+    font-size: 2rem;
+}
+.msg-container{
+    margin-top: 2rem;
+}
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    display: inline;
+    border-radius: 1rem;
 }
