@@ -30,7 +30,7 @@ Play against the computer and see who wins each round!
 
 ## Demo
 
-![Demo Screenshot]<img width="1915" height="859" alt="Screenshot 2025-10-31 122212" src="https://github.com/user-attachments/assets/bca0b360-8b37-470c-b2f2-f9153343c648".png />
+![Demo Screenshot]<img width="1915" height="859" alt="Screenshot 2025-10-31 122212" src="https://github.com/user-attachments/assets/bca0b360-8b37-470c-b2f2-f9153343c648"/>
 --- 
 
 
