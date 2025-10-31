@@ -46,4 +46,4 @@ Play against the computer and see who wins each round!
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/yourusername/stone-paper-scissors.git
+https://github.com/Akashs-777/Stone-Paper-Scissors.git
