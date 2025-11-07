@@ -60,3 +60,18 @@ choices.forEach((choice) => {
         playgame(userChoice);
     });
 })
+
+let btn = document.createElement("button");
+btn.id = "rstBtn";
+ btn.innerHTML = "Reset";
+ document.body.appendChild(btn);
+
+
+ btn.addEventListener("click" , () =>{
+    userScore = 0;
+    compScore = 0;
+   compScorePara.innerText = compScore;
+   userScorePara.innerText = compScore;
+   msg.innerText = "Play Your move";
+   msg.style.backgroundColor = "#081b31";
+ })
